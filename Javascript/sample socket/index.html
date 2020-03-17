@@ -1,0 +1,77 @@
+<!doctype html>
+<meta charset='utf-8'></meta>
+<link href="style.css" rel="stylesheet" type="text/css">
+<html>
+    <body>
+    	<!-- <head>
+			<link rel="stylesheet" href="connect4.css">
+		</head> -->
+        <div id='root'>
+        	<!-- <textarea v-model= "text" placeholder="Enter your message here"> </textarea>
+			<button v-on:click = "sendMessage"> Send </button>
+			<p v-for='msg in message'>{{msg}}</p>
+			-->
+            <div id="grid">
+                <div class="row">
+                    <div class="cell" id="0" v-on:click = "sendMessage(0)"></div>
+                    <div class="cell" id="1" v-on:click = "sendMessage(1)"></div>
+                    <div class="cell" id="2" v-on:click = "sendMessage(2)"></div>
+                    <div class="cell" id="3" v-on:click = "sendMessage(3)"></div>
+                    <div class="cell" id="4" v-on:click = "sendMessage(4)"></div>
+                    <div class="cell" id="5" v-on:click = "sendMessage(5)"></div>
+                    <div class="cell" id="6" v-on:click = "sendMessage(6)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" id="7" v-on:click = "sendMessage(7)"></div>
+                    <div class="cell" id="8" v-on:click = "sendMessage(8)"></div>
+                    <div class="cell" id="9" v-on:click = "sendMessage(9)"></div>
+                    <div class="cell" id="10" v-on:click = "sendMessage(10)"></div>
+                    <div class="cell" id="11" v-on:click = "sendMessage(11)"></div>
+                    <div class="cell" id="12" v-on:click = "sendMessage(12)"></div>
+                    <div class="cell" id="13" v-on:click = "sendMessage(13)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" id="14" v-on:click = "sendMessage(14)"></div>
+                    <div class="cell" id="15" v-on:click = "sendMessage(15)"></div>
+                    <div class="cell" id="16" v-on:click = "sendMessage(16)"></div>
+                    <div class="cell" id="17" v-on:click = "sendMessage(17)"></div>
+                    <div class="cell" id="18" v-on:click = "sendMessage(18)"></div>
+                    <div class="cell" id="19" v-on:click = "sendMessage(19)"></div>
+                    <div class="cell" id="20" v-on:click = "sendMessage(20)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" id="21" v-on:click = "sendMessage(21)"></div>
+                    <div class="cell" id="22" v-on:click = "sendMessage(22)"></div>
+                    <div class="cell" id="23" v-on:click = "sendMessage(23)"></div>
+                    <div class="cell" id="24" v-on:click = "sendMessage(24)"></div>
+                    <div class="cell" id="25" v-on:click = "sendMessage(25)"></div>
+                    <div class="cell" id="26" v-on:click = "sendMessage(26)"></div>
+                    <div class="cell" id="27" v-on:click = "sendMessage(27)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" id="28" v-on:click = "sendMessage(28)"></div>
+                    <div class="cell" id="29" v-on:click = "sendMessage(29)"></div>
+                    <div class="cell" id="30" v-on:click = "sendMessage(30)"></div>
+                    <div class="cell" id="31" v-on:click = "sendMessage(31)"></div>
+                    <div class="cell" id="32" v-on:click = "sendMessage(32)"></div>
+                    <div class="cell" id="33" v-on:click = "sendMessage(33)"></div>
+                    <div class="cell" id="34" v-on:click = "sendMessage(34)"></div>
+                </div>
+                <div class="row">
+                    <div class="cell" id="35" v-on:click = "sendMessage(35)"></div>
+                    <div class="cell" id="36" v-on:click = "sendMessage(36)"></div>
+                    <div class="cell" id="37" v-on:click = "sendMessage(37)"></div>
+                    <div class="cell" id="38" v-on:click = "sendMessage(38)"></div>
+                    <div class="cell" id="39" v-on:click = "sendMessage(39)"></div>
+                    <div class="cell" id="40" v-on:click = "sendMessage(40)"></div>
+                    <div class="cell" id="41" v-on:click = "sendMessage(41)"></div>
+                </div>
+            </div>
+        </div>
+        <!--  <script src="vue.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src='client.js'></script>
+    </body>
+</html>
+
+<!-- 'https://cdn.jsdelivr.net/npm/vue/dist/ -->
